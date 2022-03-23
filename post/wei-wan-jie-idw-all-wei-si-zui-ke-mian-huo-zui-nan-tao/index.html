@@ -1,14 +1,19 @@
+
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
+    
+<meta charset="utf-8" >
 
 <title>【未完结】【IDW】【all威】死罪可免，活罪难逃 | Sparwlingberry</title>
+<meta name="description" content="个人网站lol">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://MushroomUT.github.io/favicon.ico?v=1648076353863">
+<link rel="shortcut icon" href="https://MushroomUT.github.io/favicon.ico?v=1648076983747">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://MushroomUT.github.io/styles/main.css">
 
 
@@ -19,83 +24,75 @@
   
 
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
-    <meta name="description" content="败者为奴这个梗如此classic，但是作为官方寇首落马，这个梗写得数量如此少让我略感忧郁233。可能是因为大家都比较有节操，所以只能由我这个non-义人来写。就是胜者为王败着暖床233
-p.s第一章时美东情人节还没结束，虚假的情人节文上线（..." />
-    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://MushroomUT.github.io">
-        <img src="https://MushroomUT.github.io/images/avatar.png?v=1648076353863" class="site-logo">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://MushroomUT.github.io">
+        <img class="avatar" src="https://MushroomUT.github.io/images/avatar.png?v=1648076983747" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://MushroomUT.github.io">
         <h1 class="site-title">Sparwlingberry</h1>
       </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
     </div>
-    <div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
       
         
-          <a href="https://MushroomUT.github.io" class="site-nav">
+          <a href="https://MushroomUT.github.io" class="menu purple-link">
             文章
           </a>
         
       
         
-          <a href="https://MushroomUT.github.io/post/mo-yu-dai-guai-wu" class="site-nav">
+          <a href="https://MushroomUT.github.io/post/mo-yu-dai-guai-wu" class="menu purple-link">
             2021年画集
           </a>
         
       
         
-          <a href="https://MushroomUT.github.io/post/about" class="site-nav">
+          <a href="https://MushroomUT.github.io/tags" class="menu purple-link">
+            TAG
+          </a>
+        
+      
+        
+          <a href="https://MushroomUT.github.io/post/about" class="menu purple-link">
             关于
           </a>
         
       
     </div>
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      个人网站lol
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://MushroomUT.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
-</div>
+</transition>
 
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">【未完结】【IDW】【all威】死罪可免，活罪难逃</h2>
-            <div class="post-date">2022-03-23</div>
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">【未完结】【IDW】【all威】死罪可免，活罪难逃</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2022-03-22</span>
             
-            <div class="post-content" v-pre>
-              <p>败者为奴这个梗如此classic，但是作为官方寇首落马，这个梗写得数量如此少让我略感忧郁233。可能是因为大家都比较有节操，所以只能由我这个non-义人来写。就是胜者为王败着暖床233<br>
+          </div>
+          <div class="post-content">
+            <p>败者为奴这个梗如此classic，但是作为官方寇首落马，这个梗写得数量如此少让我略感忧郁233。可能是因为大家都比较有节操，所以只能由我这个non-义人来写。就是胜者为王败着暖床233<br>
 p.s第一章时美东情人节还没结束，虚假的情人节文上线（乐）</p>
 <p>霸天虎党宣布解散，汽车人政权为临时执政党。为红蜘蛛喉舌的中立tf参议院反对汽车人守则法升格为临时宪法，控诉汽车人企图指染并控制议会，双方辩争极其激烈，直到各退一步，沿革战前御天敌律法为临时宪法。</p>
 <ul>
@@ -135,37 +132,43 @@ p.s第一章时美东情人节还没结束，虚假的情人节文上线（乐�
 擎天柱抽不开手，就开始用手指去搔刮蹊甲，让威震天发出中听得多的声音“哪里有那么多的如果。如果你不是无条件投降；如果我没有开始量产兵计划；只要愿意追溯，能一直追溯到如果你不陪撞针喝大酒，旋刃没揍你的时候。”<br>
 “啐，怎么不回到你上辈子去。”威震天起身去咬领袖的天线，那里无论看上去还是尝起来都一样的可口。现在威震天的牙齿平滑，齐整，很像汽车人的，伤害力不高，领袖也就随他去，搂住被油浴泡的暖烘烘的前死对头儿，放出自己的管子，开始履行御天敌律法第八十八条。</p>
 
-            </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="https://MushroomUT.github.io/post/idw-bu-wei-tong-wei-yu-zhi/">
-                  <h3 class="post-title">
-                    【idw】【补威/通威】阈值
-                  </h3>
-                </a>
-              </div>
-            
-
-            
-              
-                <div id="gitalk-container" data-aos="fade-in"></div>
-              
-
-              
-            
-
           </div>
-
         </div>
+
+        
       </div>
+
+      
+        
+          <div id="gitalk-container"></div>
+        
+
+        
+      
+
+      <div class="site-footer">
+  <div class="slogan">个人网站lol</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://MushroomUT.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+
     </div>
+    <script type="application/javascript">
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script type="application/javascript">
-
-AOS.init();
+hljs.initHighlightingOnLoad()
 
 var app = new Vue({
   el: '#app',
@@ -175,8 +178,6 @@ var app = new Vue({
 })
 
 </script>
-
-
 
 
 
