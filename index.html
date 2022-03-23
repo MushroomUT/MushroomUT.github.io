@@ -1,127 +1,58 @@
-
 <html>
   <head>
-    
-<meta charset="utf-8" >
-
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Sparwlingberry</title>
-<meta name="description" content="个人网站lol">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://MushroomUT.github.io/favicon.ico?v=1648076983747">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://MushroomUT.github.io/favicon.ico?v=1648077120785">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://MushroomUT.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="Sparwlingberry - Atom Feed" href="https://MushroomUT.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-
-
+    <meta name="description" content="个人网站lol" />
   </head>
   <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://MushroomUT.github.io">
-        <img class="avatar" src="https://MushroomUT.github.io/images/avatar.png?v=1648076983747" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://MushroomUT.github.io">
-        <h1 class="site-title">Sparwlingberry</h1>
-      </a>
-    </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="https://MushroomUT.github.io" class="menu purple-link">
-            文章
-          </a>
-        
-      
-        
-          <a href="https://MushroomUT.github.io/post/mo-yu-dai-guai-wu" class="menu purple-link">
-            2021年画集
-          </a>
-        
-      
-        
-          <a href="https://MushroomUT.github.io/tags" class="menu purple-link">
-            TAG
-          </a>
-        
-      
-        
-          <a href="https://MushroomUT.github.io/post/about" class="menu purple-link">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-
-
-      <div class="content-container">
-        
-        
-<section class="post-item">
-    <div class="content">
-      <a href="https://MushroomUT.github.io/post/idw-bu-wei-tong-wei-yu-zhi/">
-        <h2 class="post-title">【idw】【补威/通威】阈值</h2>
-      </a>
-      <div class="post-abstract">
-        
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2022-03-23</span>
-        
-      </div>
-    </div>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://MushroomUT.github.io">
+  <img class="avatar" src="https://MushroomUT.github.io/images/avatar.png?v=1648077120785" alt="">
+  </a>
+  <h1 class="site-title">
+    Sparwlingberry
+  </h1>
+  <p class="site-description">
+    个人网站lol
+  </p>
+  <div class="menu-container">
     
-  </section>
-
-<section class="post-item">
-    <div class="content">
-      <a href="https://MushroomUT.github.io/post/wei-wan-jie-idw-all-wei-si-zui-ke-mian-huo-zui-nan-tao/">
-        <h2 class="post-title">【未完结】【IDW】【all威】死罪可免，活罪难逃</h2>
-      </a>
-      <div class="post-abstract">
-        
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2022-03-22</span>
-        
-      </div>
-    </div>
+      
+        <a href="https://MushroomUT.github.io" class="menu">
+          文章
+        </a>
+      
     
-  </section>
-
-
-<div class="pagination-container">
-  
-  
-</div>
-
-
-      </div>
-
-      <div class="site-footer">
-  <div class="slogan">个人网站lol</div>
+      
+        <a href="https://MushroomUT.github.io/post/mo-yu-dai-guai-wu" class="menu">
+          2021年画集
+        </a>
+      
+    
+      
+        <a href="https://MushroomUT.github.io/tags" class="menu">
+          TAG
+        </a>
+      
+    
+      
+        <a href="https://MushroomUT.github.io/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
   <div class="social-container">
     
       
@@ -135,26 +66,74 @@
       
     
   </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://MushroomUT.github.io/atom.xml" target="_blank">RSS</a>
 </div>
 
+    
+        <div class="post-container">
+  
+    <article class="post">
+      <a href="https://MushroomUT.github.io/post/idw-bu-wei-tong-wei-yu-zhi/">
+        <h2 class="post-title">【idw】【补威/通威】阈值</h2>
+      </a>
+      <div class="post-info">
+        <span>
+          2022-03-22
+        </span>
+        <span>
+          8 min read
+        </span>
+        
+          <a href="https://MushroomUT.github.io/tag/87XraFbfk/" class="post-tag">
+            # 变形金刚同人
+          </a>
+        
+      </div>
+      
+      <div class="post-abstract">
+        
+      </div>
+    </article>
+  
+    <article class="post">
+      <a href="https://MushroomUT.github.io/post/wei-wan-jie-idw-all-wei-si-zui-ke-mian-huo-zui-nan-tao/">
+        <h2 class="post-title">【未完结】【IDW】【all威】死罪可免，活罪难逃</h2>
+      </a>
+      <div class="post-info">
+        <span>
+          2022-03-22
+        </span>
+        <span>
+          11 min read
+        </span>
+        
+          <a href="https://MushroomUT.github.io/tag/87XraFbfk/" class="post-tag">
+            # 变形金刚同人
+          </a>
+        
+      </div>
+      
+      <div class="post-abstract">
+        
+      </div>
+    </article>
+  
+</div>
 
+    
+        <div class="pagination-container">
+  
+  
+</div>
+
+    
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://MushroomUT.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
     </div>
-    <script type="application/javascript">
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
-</script>
-
-
-
-
   </body>
 </html>
