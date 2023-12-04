@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://MushroomUT.github.io</id>
     <title>Sparwlingberry</title>
-    <updated>2023-12-04T03:46:55.565Z</updated>
+    <updated>2023-12-04T04:02:20.432Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://MushroomUT.github.io"/>
     <link rel="self" href="https://MushroomUT.github.io/atom.xml"/>
@@ -10,6 +10,16 @@
     <logo>https://MushroomUT.github.io/images/avatar.png</logo>
     <icon>https://MushroomUT.github.io/favicon.ico</icon>
     <rights>All rights reserved 2023, Sparwlingberry</rights>
+    <entry>
+        <title type="html"><![CDATA[成为药学生是你能够做到最荒唐的事情之一]]></title>
+        <id>https://MushroomUT.github.io/post/cheng-wei-yao-xue-sheng-shi-ni-neng-gou-zuo-dao-zui-huang-tang-de-shi-qing-zhi-yi/</id>
+        <link href="https://MushroomUT.github.io/post/cheng-wei-yao-xue-sheng-shi-ni-neng-gou-zuo-dao-zui-huang-tang-de-shi-qing-zhi-yi/">
+        </link>
+        <updated>2023-12-03T14:59:28.000Z</updated>
+        <content type="html"><![CDATA[<p>就是在你知道知道滥用精神药物会带来怎样具体的副作用的时候还是毅然决然地去嗑药。镇定剂、兴奋剂，不管是什么，吃就对了！谋杀我的神经和肠胃吧！<br>
+没有自我驱动力只能靠着精神药物来驱动的死猴子。。。。。。。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[什么算自残]]></title>
         <id>https://MushroomUT.github.io/post/shi-me-suan-zi-can/</id>
